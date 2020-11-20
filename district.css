@@ -1,0 +1,125 @@
+
+/* window width 576-771px */
+
+@media screen and (min-width: 576px) {
+    .centered{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-30%, -60%);
+        font-weight: 400;
+        font-size: 15px;
+    }
+    img.thumbnail{
+        position: static;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        opacity: 0.3;
+        transition:0.2s ease-in-out;
+    }
+    
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+    
+}
+
+/* window width 771-1169px */
+
+@media screen and (min-width: 771px) {
+    .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -40%);
+        font-weight: 400;
+        font-size: 25px;
+    }
+    img.thumbnail{
+        position: static;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        opacity: 0.3;
+        transition:0.2s ease-in-out;
+    }
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+    
+}
+
+/* window width above 1170px */
+@media screen and (min-width: 1170px) {
+    .centered{
+        position: absolute;
+        top: 55%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 35px;
+    }
+    img.thumbnail{
+        position: relative;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        opacity: 0.3;
+        transition:0.2s ease-in-out;
+    }
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+}
+
+/* window width below 576px for mobile devices */
+@media screen and (max-width: 575px) {
+.centered{
+        position: absolute;
+        top: 55%;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 35px;
+    }
+    img.thumbnail{
+        position: static;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        opacity: 0.3;
+        transition:0.2s ease-in-out;
+    }
+    
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+}
+
+a.thumbnail:hover .centered{
+    color: chartreuse !important;
+}
+.centered{
+    color: white !important;
+}

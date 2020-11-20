@@ -1,0 +1,43 @@
+.container img{
+    max-width: 100%;
+    height: 600px;
+}
+
+h1{
+    text-align: center !important;
+    margin-top: 50px;
+    color: white;
+    text-decoration: underline greenyellow;
+    font-weight: bolder;
+}
+
+
+a.stay{
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+}
+
+.card{
+    margin-top: 5%;
+    background: transparent;
+}
+
+h2{
+    text-align: center !important;
+    margin-top: 50px;
+    color: white;
+    text-decoration: underline greenyellow;
+}
+
+a.stay:hover{
+    color: yellow;
+}
+
+.ernakulam-centered{
+    margin-left: 10vw;
+} 
+
+.carousel-caption p{
+    font-weight: bold !important;
+}

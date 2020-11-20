@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(./pictures/background11.jpg) !important;
+    background-size: auto;
+    max-width: 99%;
+}
+
+.navbar-brand{
+    font-size: 40px !important;
+    margin-top: -10px;
+}
+
+button{
+    float: right;
+}
+
+a{
+    border: 1px hidden black;
+    margin: 15px;
+    font-size: x-large;
+}
+
+a:hover{
+    color: #fff000 !important;
+    transition: 0.2s ease-in-out;
+}
+
+.current{
+    color: chartreuse !important;
+}
+
+.navbar{
+    background-color: black !important; 
+    background: transparent !important;
+}
+
+.mymargin{
+    margin: 20px;
+}
+
+.icon{
+    margin:10px;
+    width: 70px; 
+    height: 70px;
+}
+
+.car-pic{
+    max-width: 850px;
+    max-height: 450px;
+}
+
+.round-border{
+    border-radius: 100px;
+    border: 2px solid #fff000;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+footer{
+    height: 1em;
+    margin-top: 10%;
+}
+
+.content{
+    color: white !important;
+    font-size: 25px;
+    text-align: justify;
+}
